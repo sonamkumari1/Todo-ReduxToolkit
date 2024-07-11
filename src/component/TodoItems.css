@@ -1,0 +1,32 @@
+.todo-item {
+    border: none !important;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Optional: add a bottom border to separate items */
+  }
+  
+  .todo-item .input-group {
+    width: 100%;
+  }
+  
+  .todo-item svg {
+    cursor: pointer;
+  }
+
+  .todo-item.completed {
+    text-decoration: line-through;
+    opacity: 0.5; /* Example styling for completed tasks */
+  }
+
+  /* Add any custom styles needed */
+@media (max-width: 576px) {
+    .todo-item .input-group .btn {
+      margin-top: 5px;
+      width: 100%;
+    }
+  
+    .todo-item input {
+      width: 100%;
+    }
+  }
+  
